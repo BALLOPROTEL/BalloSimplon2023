@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ballo Seydou Yagnan – CV</title>
+    <style>
+        body
+        {
+            font-family : Arial, sans-serif ;
+            background-color : lightblue ;
+        }
+       /* h1
+        {
+            text-align : center ;
+            color : white ;
+        }*/
+        P
+        {
+            margin : 10px ;
+        }
+        .photo
+        {
+            width : 200px ;
+            height : 200px ;
+            border-radius : 50% ;
+            margin : auto ;
+        }
+        .competences
+        {
+            display : flex ;
+            justify-content : space-around ;
+        }
+        .competence
+        {
+            width : 100px ;
+            height : 100px ;
+            background-color : white ;
+            border-radius : 50% ;
+            display : flex ;
+            align-items : center ;
+            justify-content : center ;
+        }
+        table, tr, td
+        {
+            border: 1px solid gold;
+            border-collapse: collapse;
+        }
+          form {
+    max-width : 600px ;
+    margin : 0 auto ;
+  }
+
+  fieldset {
+    border : 1px solid #ccc ;
+    padding : 20px ;
+  }
+
+  legend {
+    font-weight : bold ;
+  }
+
+  label {
+    display : inline-block ;
+    width : 150px ;
+  }
+
+  input, select {
+    width : 300px ;
+  }
+
+  button {
+    width : 100px ;
+    background-color : #28a745 ;
+    color : white ;
+    border : none ;
+    border-radius : 5px ;
+  }
+    </style>
+
+</head>
+<body>
+    <p style="background-color: blue;">
+        Bonjour, je m’appelle Ballo Seydou Yagnan, âgé de 24 ans, je suis de nationalité ivoirienne. Actuellement titulaire d’une licence MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises) de l’université polytechnique de Bingerville, je suis à la recherche d’emploi. J’ai des connaissances en HTML, CSS, JavaScript. Je suis simple, rigoureux, courageux, discipliné, organisé.
+        Avec du HTML et du CSS, j’ai créé une page web qui parle de moi. Voici le code source de ma page :
+</p>
+<h1>Ballo Seydou Yagnan</h1>
+<h2>Ma photo</h2>
+<img src= "images/ballo.jpg " alt= "Ma photo" class= "photo">
+<p>
+    Je suis titulaire d’une licence MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises) de l’université polytechnique de Bingerville. Je suis à la recherche d’emploi dans le domaine du développement web.
+</p>
+<p>
+    Je maîtrise les langages HTML, CSS et JavaScript. Je suis capable de créer des sites web dynamiques et responsives. Je suis également intéressé par les frameworks comme React ou Angular.
+</p>
+<p>
+    Je suis simple, rigoureux, courageux, discipliné et organisé. Je m’adapte facilement aux nouvelles technologies et aux nouveaux environnements de travail. Je suis motivé par les challenges et les opportunités d’apprentissage.
+</p>
+<h2>Mes compétences</h2>
+<div class= "competences ">
+    <div class= "competence ">
+        <img src= "images/html.png " alt= "HTML" width="50" height="50">
+    </div>
+    <div class= "competence ">
+        <img src= "images/css.png " alt= "CSS" width="50" height="50">
+    </div>
+    <div class= "competence ">
+        <img src= "images/js.png " alt= "JavaScript" width="50" height="50">
+    </div>
+</div>
+<p style="color:red">3<sup>2+x<sup>2</sup>=5</sup></p>
+
+
+
+<h1 style="font-family: sans-serif;">SALAIRES</h1>
+<table>
+    <tr>
+        <strong>
+        <td>NOM PRENOM</td>
+        <strong><td>CONTACT</td>
+        <td>SALAIRE</td>
+        </strong>
+    </tr>
+    <tr>
+        <strong><td>NOM PRENOM</td></strong>
+        <strong><td>CONTACT</td></strong>
+        <strong><td>SALAIRE</td></strong>
+    </tr>
+    <tr style="background-color: gray;">
+        <td>a</td>
+        <td>e</td>
+        <td>s</td>
+    </tr>
+        <tr>
+        <td>a</td>
+        <td>e</td>
+        <td>s</td>
+    </tr>
+</table>
+
+
+
+
+
+<form action= "/recensement " method= "post ">
+  <fieldset>
+    <legend>recensement des taxis communaux</legend>
+    <p>
+      <label for= "nom ">nom :</label>
+      <input type= "text " id= "nom " name= "nom " required>
+    </p>
+    <p>
+      <label for= "prenom ">prénom :</label>
+      <input type= "text " id= "prenom " name= "prenom " required>
+    </p>
+    <p>
+      <label for= "immatriculation ">immatriculation :</label>
+      <input type= "text " id= "immatriculation " name= "immatriculation " required>
+    </p>
+    <p>
+      <label for= "commune ">commune :</label>
+      <select id= "commune " name= "commune " required>
+        <option value= "" >choisissez une commune</option>
+        <option value= "abidjan ">abidjan</option>
+        <option value= "bouaké ">bouaké</option>
+        <option value= "yamoussoukro ">yamoussoukro</option>
+        < !—ajoutez d’autres options ici 
+      </select>
+    </p>
+    <p>
+      <button type= "submit ">envoyer</button>
+    </p>
+  </fieldset>
+</form>
+
+<style>
+  form {
+    max-width : 600px ;
+    margin : 0 auto ;
+  }
+
+  fieldset {
+    border : 1px solid #ccc ;
+    padding : 20px ;
+  }
+
+  legend {
+    font-weight : bold ;
+  }
+
+  label {
+    display : inline-block ;
+    width : 150px ;
+  }
+
+  input, select {
+    width : 300px ;
+  }
+
+  button {
+    width : 100px ;
+    background-color : #28a745 ;
+    color : white ;
+    border : none ;
+    border-radius : 5px ;
+  }
+</style>
+
+</body>
+</html>

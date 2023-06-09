@@ -1,0 +1,153 @@
+*
+{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+}
+
+body
+{
+    font-family : Arial, sans-serif ;
+}
+.navbar
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : space-between ;
+    background-color : #333 ;
+    color : white ;
+    padding : 10px ;
+}
+.navbar a
+{
+    color : white ;
+    text-decoration : none ;
+    margin : 10px ;
+}
+.navbar a :hover
+{
+    color : yellow ;
+}
+.ballo
+{
+    height : 80vh ;
+    background-image : url("images/tec.jpg") ;
+    background-size : cover ;
+    background-position : center ;
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+}
+.ballo h1
+{
+    font-size : 60px ;
+    color : white ;
+    text-shadow : 2px 2px black ;
+}
+.about
+{
+    padding : 40px ;
+    display : flex ;
+    align-items : center ;
+}
+.about img
+{
+    width : 300px ;
+    height : 300px ;
+    border-radius : 50% ;
+    margin-right : 20px ;
+}
+.about p
+{
+    font-size : 20px ;
+    text-align: justify;
+    line-height : 1.5 ;
+}
+.skills
+{
+    padding : 40px ;
+    background-color : #f0f0f0 ;
+}
+.skills h2
+{
+    text-align : center ;
+    margin-bottom : 20px ;
+}
+.skills ul
+{
+    display : flex ;
+    justify-content : space-around ;
+    list-style-type : none ;
+}
+.skills li
+{
+    width : 200px ;
+    height : 200px ;
+    border-radius : 50% ;
+    background-color : white ;
+    box-shadow : 2px 2px 5px gray ;
+    display : flex ;
+    align-items : center ;
+    justify-content : center ;
+    flex-direction : column ; 
+}
+.skills li img
+{
+    width :100px ; 
+    height :100px ; 
+    margin-bottom :10px ; 
+}
+.contact
+{
+    padding :40px ; 
+    display :flex ; 
+    align-items :center ; 
+    justify-content :center ; 
+    flex-direction :column ; 
+}
+.contact h2
+{
+    margin-bottom :20px ; 
+}
+.contact form
+{
+    width :500px ; 
+    pisplay :flex ; 
+    Align-items :center ; 
+    Justify-content :center ; 
+    Flex-direction :column ; 
+}
+.contact form input, .contact form textarea
+{
+    width :100% ; 
+    padding :10px ; 
+    margin :10px ; 
+    border :1px solid gray ; 
+}
+.contact form button
+{
+    width :200px ; 
+    padding :10px ; 
+    margin-top :20px ; 
+    background-color :#333 ; 
+    color :white ; 
+    border :none ; 
+}
+
+.socials
+{
+    display :flex ; 
+    align-items :center ; 
+    justify-content :center ; 
+    margin-top :20px ;
+}
+.socials a 
+{
+    margin :10px ; 
+}
+.socialsT
+{
+    text-align: center;
+    margin-top: 15px;
+    background-color: beige;
+}
